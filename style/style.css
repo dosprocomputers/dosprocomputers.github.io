@@ -1,0 +1,12 @@
+body {
+    background-color: #212121;
+    color: white;
+}
+
+ul {
+    display:block
+
+
+    padding: 20px;
+    margin: 20px;
+}
