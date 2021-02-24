@@ -1,12 +1,29 @@
 body {
     background-color: #212121;
     color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 ul {
-    display:block
-
-
+    display:block;
     padding: 20px;
     margin: 20px;
+}
+
+nav {
+    background-color: #515151;
+}
+ul > li {
+    display: inline-block;
+    /* You can also add some margins here to make it look prettier */
+    color: white;
+    margin: 0px 2%;
+    background-color:#4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    zoom:1;
+    *display:inline;
+    /* this fix is needed for IE7- */
 }
