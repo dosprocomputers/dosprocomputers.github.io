@@ -1,11 +1,12 @@
 body {
-    background-color: #212121;
+    /*background-color: #212121;*/
+    background: #212121;
+    background-size: 500%;
     color: white;
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
-
 ul {
     display:block;
     padding: 20px;
@@ -26,4 +27,14 @@ ul > li {
     zoom:1;
     *display:inline;
     /* this fix is needed for IE7- */
+}
+
+.center {
+    display:block;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
 }
