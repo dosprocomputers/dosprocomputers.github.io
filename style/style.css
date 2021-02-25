@@ -12,9 +12,11 @@ ul {
     padding: 20px;
     margin: 20px;
 }
-
 nav {
     background-color: #515151;
+}
+nav > img {
+    width: 10px;
 }
 ul > li {
     display: inline-block;
@@ -28,12 +30,16 @@ ul > li {
     *display:inline;
     /* this fix is needed for IE7- */
 }
-
 .center {
     display:block;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
-
+.infoBox {
+    text-align: center;
+    max-width: 95%;
+    margin: auto;    
+}
 h1 {
     font-size: 4rem;
     color: white;
