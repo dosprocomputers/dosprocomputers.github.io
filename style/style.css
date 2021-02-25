@@ -40,6 +40,10 @@ ul > li {
     zoom:1;
     *display:inline;
     /* this fix is needed for IE7- */
+    transition: 0.2s ease;
+}
+ul > li:hover {
+  background-color: #3c3c89;
 }
 .center {
     display:block;
@@ -53,4 +57,18 @@ ul > li {
 h1 {
     font-size: 4rem;
     color: white;
+}
+//downloadbuttons
+.downlbtn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.downlbtn:hover {
+  background-color: RoyalBlue;
 }
