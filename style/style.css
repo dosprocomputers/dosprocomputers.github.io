@@ -40,11 +40,7 @@ ul > li {
     zoom:1;
     *display:inline;
     /* this fix is needed for IE7- */
-    transition: 0.2s ease;
-}
-ul > li:hover {
-  background-color: #3c3c89;
-}
+    transition: 0.2s ease                                                                                                                                                                                                                   
 .center {
     display:block;
     margin: auto;
@@ -75,6 +71,10 @@ h1 {
 
 .downloadButton:hover {
   background-color: #3c3c89;
+}
+
+.downloadBox {
+  background:#3c3c89;
 }
 
 
