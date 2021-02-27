@@ -40,8 +40,8 @@ ul > li {
     zoom:1;
     *display:inline;
     /* this fix is needed for IE7- */
-    transition: 0.2s ease                                                                                                                                                                                                                   
-.center {
+    transition: 0.2s ease;                                      
+}                                                                 .center {
     display:block;
     margin: auto;
 }
@@ -49,6 +49,10 @@ ul > li {
     text-align: center;
     max-width: 95%;
     margin: auto;    
+}
+
+.home-picture {
+  width: 100%
 }
 h1 {
     font-size: 4rem;
@@ -77,4 +81,71 @@ h1 {
   background:#3c3c89;
 }
 
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #000065;
+}
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 32%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+
+.search-input { height: 15px; width: 200px; padding: 5px; margin: 0; background: darkblue; border: 1px solid white; border-right: none; right: 100%} .search-button { cursor: pointer; height: 27px; width: 30px; border: 1px solid white; border-left: white; margin-right: -5px; background: darkblue; right: 100%}
+
+}
